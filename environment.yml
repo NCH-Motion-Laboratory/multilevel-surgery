@@ -1,0 +1,39 @@
+name: multilevel-surgery
+channels:
+  - conda-forge
+
+dependencies:
+  # interactive jupyter stuff
+  - ipykernel
+  - ipywidgets
+  - nbformat    # needed for plotly?
+  
+  # scientific computing/data science libraries
+  - numpy
+  - scipy
+  - pandas
+
+  # visualizations
+  - matplotlib
+  - plotly
+
+  # general utilities
+  - pip
+  - tqdm
+  - odfpy
+  - ezc3d
+
+  # needed for gaitutils
+  - configobj
+  - flask
+  - openpyxl
+  - pyqt
+  - psutil
+  - werkzeug
+  - pypdf2
+  - dash
+  - python-kaleido
+  - dash-daq
+  - pyedflib
+
+  # Install gaitutils (and ulstools + configdot) maunually. Make sure you are using the corect version (something circa June 2026?).
