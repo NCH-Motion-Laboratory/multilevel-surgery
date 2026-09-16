@@ -22,6 +22,7 @@ dependencies:
   - tqdm
   - odfpy
   - ezc3d
+  - xlrd
 
   # needed for gaitutils
   - configobj
